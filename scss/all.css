@@ -70,10 +70,10 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -101,6 +101,10 @@ img {
 .fa-facebook {
   background: #3B5998;
   color: white;
+}
+
+.item {
+  margin: 0 auto;
 }
 
 .copyright {

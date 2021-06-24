@@ -13,9 +13,6 @@ body, html{
     color:#E9D22F;
 }
 
-// .photoBlk{
-//       height:140px;overflow:hidden;
-// };
 
 
 .container.custom-container-width {
@@ -63,12 +60,11 @@ img{
 }
 .footer{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items:stretch;
     font-size:13px;
     color:#aaa;
-
 };
 
 
@@ -93,6 +89,10 @@ img{
     background: #3B5998;
     color: white;
   };
+
+ .item{
+   margin: 0 auto;
+ }
 
   .copyright {
     margin-left:15px;
