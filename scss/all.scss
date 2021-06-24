@@ -1,0 +1,178 @@
+@import "variable";
+@import "mixin";
+
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5E9DB !important;
+}
+
+
+.title{
+    color:#E9D22F;
+}
+
+// .photoBlk{
+//       height:140px;overflow:hidden;
+// };
+
+
+.container.custom-container-width {
+    max-width: 960px;       // 最後內容寬會是 980px
+}
+
+@media (max-width: 575.98px) { 
+    .photoBlk{
+        height:140px;overflow:hidden;
+  };
+ }
+
+.middleBlk{
+    display: flex; 
+    align-items:stretch;
+};
+
+.content{
+    color:rgba(0,0,0,0.6);
+};
+
+.tool{
+    color:rgba(0,0,0,0.6);
+};
+
+.introBlk{
+    color:rgba(0,0,0,0.6);
+}
+
+.registerBlk{
+    color: #3F5D45;
+    font-size: 18px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+};
+
+.activity{
+    margin:8px;
+    // border:1px solid #000;  height:120px;overflow:hidden;
+}
+img{
+    border-radius:30px !important;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:stretch;
+    font-size:13px;
+    color:#aaa;
+
+};
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+};
+
+img{
+    // max-width: 100%;
+    height: inherit;
+    width: 100%;
+};
+
+
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  };
+
+  .copyright {
+    margin-left:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+  };
+
+
+  .vl {
+    border-left: 1px solid #aaa;
+    margin:4px;
+    height: 13px;
+  };
+
+
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../asset/1.jpg");
+
+  /* Set a specific height */
+  height: 100%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+
+/* Place text in the middle of the image */
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+  .hero-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+
+.hero-text button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  // image gallery
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
